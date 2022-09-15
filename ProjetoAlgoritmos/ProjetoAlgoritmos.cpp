@@ -1341,6 +1341,7 @@ int main()
 
 
 			}
+
 			else {
 				cout << "Escolha 2 (escalar o trailer e entrar pela claraboia): Uma pequena escada atrás do trailer facilita a sua subida ate o teto do automovel e, \n";
 				cout << "para sua sorte, a claraboia ali localizada havia sido deixada entreaberta, facilitando sua entrada no trailer. Ao entrar, sua mochila eh \n";
@@ -2582,225 +2583,94 @@ int main()
 				}
 			}
 		}
-	}
-	// Escolha 2: Investigar a casa
-	else if (escolha == 2) {
-		cout << "Como já estava quase anoitecendo e você prefere não passar mais uma noite dentro de um carro, você muda sua trajetória e passa a seguir a estrada de terra. O sol já estava quase \n";
-		cout << "se pondo quando você chega até a varanda da casa. De perto, você percebe que a madeira já é bastante velha, e que a maioria dos vidros das janelas estão quebrados. É bem improvável \n";
-		cout << "que este seja o abrigo de alguém, considerando o quão pouco protegida é a casa. A porta, entretanto, estava trancada, então você pula uma das janelas. Tentando se mover o mais \n";
-		cout << "silenciosamente possível, você pega a sua lanterna de dentro da mochila e caminha pelo ambiente. Você aprendeu do jeito duro quais são as prioridades assim que entra em um lugar novo: \n";
-		cout << "encontrar tudo o que pode ser usado como arma; calcular qual seria a saída mais rápida; e procurar sinais que indiquem presença de infectados ou outras pessoas. Quanto a armas, você \n";
-		cout << "só vê uma garrafa quebrada ao seu lado, em cima de uma mesa de madeira. Antes que você possa pensar em planos de fuga, ruídos de madeira rangendo vem da varanda em frente a casa. \n";
-		cout << "Rapidamente, você considera suas opções de armas: \n";
-		cout << "\n";
-
-		cout << "Escolha 1: pegar a garrafa quebrada \n";
-		cout << "Escolha 2 : pegar a faca que você guarda na lateral da mochila \n";
-		cout << "Escolha 3 : pegar sua arma, porém você só tem uma bala \n";
-
-		cin >> escolha;
-
-
-		if (escolha == 1) { // garrafa quebrada
-			cout << "Escolha 1 (garrafa quebrada): Voce pega a garrafa de cima da mesa e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. \n";
-			cout << "Voce escuta o que parecem ser sons de passos, mas pela velocidade com que se aproximam você ja descarta a pior das possibilidades: um infectado do tipo mais rápido, que eh atraído \n";
-			cout << "pelo som, já que eles nao tem olhos. O som passa pela frente da porta e para proximo a janela por onde voce entrou. Sua lanterna ilumina o lado de fora atraves do vidro e, para \n";
-			cout << "sua surpresa, na verdade, o que aparece diante de voce eh um cachorro. Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um \n";
-			cout << "pouco magro. O comportamento dele ate então te faz pensar que este nao deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
+		// Escolha 2: Investigar a casa
+		else if (escolha == 2) {
+			cout << "Como já estava quase anoitecendo e você prefere não passar mais uma noite dentro de um carro, você muda sua trajetória e passa a seguir a estrada de terra. O sol já estava quase \n";
+			cout << "se pondo quando você chega até a varanda da casa. De perto, você percebe que a madeira já é bastante velha, e que a maioria dos vidros das janelas estão quebrados. É bem improvável \n";
+			cout << "que este seja o abrigo de alguém, considerando o quão pouco protegida é a casa. A porta, entretanto, estava trancada, então você pula uma das janelas. Tentando se mover o mais \n";
+			cout << "silenciosamente possível, você pega a sua lanterna de dentro da mochila e caminha pelo ambiente. Você aprendeu do jeito duro quais são as prioridades assim que entra em um lugar novo: \n";
+			cout << "encontrar tudo o que pode ser usado como arma; calcular qual seria a saída mais rápida; e procurar sinais que indiquem presença de infectados ou outras pessoas. Quanto a armas, você \n";
+			cout << "só vê uma garrafa quebrada ao seu lado, em cima de uma mesa de madeira. Antes que você possa pensar em planos de fuga, ruídos de madeira rangendo vem da varanda em frente a casa. \n";
+			cout << "Rapidamente, você considera suas opções de armas: \n";
 			cout << "\n";
-			cout << "Escolha 1: deixar o cachorro entrar na casa \n";
-			cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
-			cout << "\n";
+
+			cout << "Escolha 1: pegar a garrafa quebrada \n";
+			cout << "Escolha 2 : pegar a faca que você guarda na lateral da mochila \n";
+			cout << "Escolha 3 : pegar sua arma, porém você só tem uma bala \n";
 
 			cin >> escolha;
 
-			if (escolha == 1) {
-				cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
-				cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
-				cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
-				cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
-				cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
 
-				cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
+			if (escolha == 1) { // garrafa quebrada
+				cout << "Escolha 1 (garrafa quebrada): Voce pega a garrafa de cima da mesa e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. \n";
+				cout << "Voce escuta o que parecem ser sons de passos, mas pela velocidade com que se aproximam você ja descarta a pior das possibilidades: um infectado do tipo mais rápido, que eh atraído \n";
+				cout << "pelo som, já que eles nao tem olhos. O som passa pela frente da porta e para proximo a janela por onde voce entrou. Sua lanterna ilumina o lado de fora atraves do vidro e, para \n";
+				cout << "sua surpresa, na verdade, o que aparece diante de voce eh um cachorro. Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um \n";
+				cout << "pouco magro. O comportamento dele ate então te faz pensar que este nao deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
+				cout << "\n";
+				cout << "Escolha 1: deixar o cachorro entrar na casa \n";
+				cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
 				cout << "\n";
 
 				cin >> escolha;
 
 				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
-					cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
-					cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
-					cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
-					cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
-					cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
-					cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
-					cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
-					cout << "de tudo, voce tem esperança. \n";
+					cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
+					cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
+					cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
+					cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
+					cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
+
+					cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
+					cout << "\n";
+
+					cin >> escolha;
+
+					if (escolha == 1) {
+						cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
+						cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
+						cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
+						cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
+						cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
+						cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
+						cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
+						cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
+						cout << "de tudo, voce tem esperança. \n";
+					}
+				}
+				else if (escolha == 2) {
+					cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
+					cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
+					cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
+					cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
+					cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
+					cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
+					cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
+					cout << "considerando as grandes margens secas ao seu redor. \n";
+
+					cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
+					cout << "\n";
+
+					cin >> escolha;
+
+					if (escolha == 1) {
+						cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
+						cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
+						cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
+						cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
+						cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
+						cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
+						cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
+						cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
+					}
 				}
 			}
-			else if (escolha == 2) {
-				cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
-				cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
-				cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
-				cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
-				cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
-				cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
-				cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
-				cout << "considerando as grandes margens secas ao seu redor. \n";
-
-				cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
-				cout << "\n";
-
-				cin >> escolha;
-
-				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
-					cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
-					cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
-					cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
-					cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
-					cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
-					cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
-					cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
-				}
-			}
-		}
-		else if (escolha == 2) { //  pegar a faca que você guarda na lateral da mochila
-			cout << "Escolha 2 (faca): Você pega faca e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. Voce escuta o que parecem ser sons \n";
-			cout << "de passos, mas pela velocidade com que se aproximam voce ja descarta a pior das possibilidades : um infectado do tipo mais rápido, que eh atraido pelo som, ja que eles não têm olhos. \n";
-			cout << "O som passa pela frente da porta e para proximo a janela por onde voce entrou.Sua lanterna ilumina o lado de fora através do vidro e, para sua surpresa, na verdade, o que aparece \n";
-			cout << "diante de voce eh um cachorro.Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um pouco magro. O comportamento dele ate entao \n";
-			cout << "te faz pensar que este não deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
-			cout << "\n";
-			cout << "Escolha 1: deixar o cachorro entrar na casa \n";
-			cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
-			cout << "\n";
-
-			cin >> escolha;
-
-			if (escolha == 1) {
-				cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
-				cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
-				cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
-				cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
-				cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
-				cout << "\n";
-				cout << "Escolha 1: fugir por uma janela de tras da casa \n";
-				cout << "\n";
-
-				cin >> escolha;
-
-				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
-					cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
-					cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
-					cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
-					cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
-					cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
-					cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
-					cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
-					cout << "de tudo, voce tem esperança. \n";
-				}
-			}
-			else if (escolha == 2) {
-				cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
-				cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
-				cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
-				cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
-				cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
-				cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
-				cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
-				cout << "considerando as grandes margens secas ao seu redor. \n";
-				cout << "\n";
-				cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
-				cout << "\n";
-
-				cin >> escolha;
-
-				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
-					cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
-					cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
-					cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
-					cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
-					cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
-					cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
-					cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
-				}
-			}
-			else {
-				cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
-				cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
-				cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
-				cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
-				cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
-				cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
-				cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
-				cout << "considerando as grandes margens secas ao seu redor. \n";
-				cout << "\n";
-				cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
-				cout << "\n";
-
-				cin >> escolha;
-
-				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
-					cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
-					cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes.Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
-					cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
-					cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
-					cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
-					cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
-					cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
-				}
-			}
-		}
-		else { //  pegar sua arma, porém você só tem uma bala 
-			cout << "Escolha 3 (arma com uma só bala) : Voce puxa a arma da sua calça e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. \n";
-			cout << "Voce escuta o que parecem ser sons de passos, mas pela velocidade com que se aproximam você ja descarta a pior das possibilidades: um infectado do tipo mais rapido, que eh atraido pelo \n";
-			cout << "som, ja que eles nao tem olhos. O som passa pela frente da porta e para proximo a janela por onde voce entrou. Sua lanterna ilumina o lado de fora atraves do vidro e, para sua surpresa, \n";
-			cout << "na verdade, o que aparece diante de voce eh um cachorro. Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um pouco magro. O \n";
-			cout << "comportamento dele ate entao te faz pensar que este não deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
-			cout << "\n";
-			cout << "Escolha 1: deixar o cachorro entrar na casa \n";
-			cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
-			cout << "\n";
-
-			cin >> escolha;
-
-			if (escolha == 1) {
-				cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
-				cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
-				cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
-				cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
-				cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
-				cout << "\n";
-				cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
-				cout << "\n";
-
-				cin >> escolha;
-
-				if (escolha == 1) {
-					cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
-					cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
-					cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
-					cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
-					cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
-					cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
-					cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
-					cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
-					cout << "de tudo, voce tem esperança. \n";
-				}
-			}
-			else {
-				cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
-				cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
-				cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
-				cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
-				cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
-				cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
-				cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
-				cout << "considerando as grandes margens secas ao seu redor. \n";
+			else if (escolha == 2) { //  pegar a faca que você guarda na lateral da mochila
+				cout << "Escolha 2 (faca): Você pega faca e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. Voce escuta o que parecem ser sons \n";
+				cout << "de passos, mas pela velocidade com que se aproximam voce ja descarta a pior das possibilidades : um infectado do tipo mais rápido, que eh atraido pelo som, ja que eles não têm olhos. \n";
+				cout << "O som passa pela frente da porta e para proximo a janela por onde voce entrou.Sua lanterna ilumina o lado de fora através do vidro e, para sua surpresa, na verdade, o que aparece \n";
+				cout << "diante de voce eh um cachorro.Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um pouco magro. O comportamento dele ate entao \n";
+				cout << "te faz pensar que este não deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
 				cout << "\n";
 				cout << "Escolha 1: deixar o cachorro entrar na casa \n";
 				cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
@@ -2815,7 +2685,7 @@ int main()
 					cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
 					cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
 					cout << "\n";
-					cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
+					cout << "Escolha 1: fugir por uma janela de tras da casa \n";
 					cout << "\n";
 
 					cin >> escolha;
@@ -2858,9 +2728,140 @@ int main()
 						cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
 					}
 				}
-			}
-		}
+				else {
+					cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
+					cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
+					cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
+					cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
+					cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
+					cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
+					cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
+					cout << "considerando as grandes margens secas ao seu redor. \n";
+					cout << "\n";
+					cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
+					cout << "\n";
 
+					cin >> escolha;
+
+					if (escolha == 1) {
+						cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
+						cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
+						cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes.Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
+						cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
+						cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
+						cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
+						cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
+						cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
+					}
+				}
+			}
+			else { //  pegar sua arma, porém você só tem uma bala 
+				cout << "Escolha 3 (arma com uma só bala) : Voce puxa a arma da sua calça e a segura em frente ao seu corpo, ao mesmo tempo usando a outra mão para apontar a lanterna na direçao da porta. \n";
+				cout << "Voce escuta o que parecem ser sons de passos, mas pela velocidade com que se aproximam você ja descarta a pior das possibilidades: um infectado do tipo mais rapido, que eh atraido pelo \n";
+				cout << "som, ja que eles nao tem olhos. O som passa pela frente da porta e para proximo a janela por onde voce entrou. Sua lanterna ilumina o lado de fora atraves do vidro e, para sua surpresa, \n";
+				cout << "na verdade, o que aparece diante de voce eh um cachorro. Ele simplesmente senta no chao e fica olhando em sua direçao. Seu pelo esta bem sujo e ele parece estar um pouco magro. O \n";
+				cout << "comportamento dele ate entao te faz pensar que este não deve ser um cachorro selvagem, mas o que deixa isso obvio eh a coleira que ele usa. \n";
+				cout << "\n";
+				cout << "Escolha 1: deixar o cachorro entrar na casa \n";
+				cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
+				cout << "\n";
+
+				cin >> escolha;
+
+				if (escolha == 1) {
+					cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
+					cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
+					cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
+					cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
+					cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
+					cout << "\n";
+					cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
+					cout << "\n";
+
+					cin >> escolha;
+
+					if (escolha == 1) {
+						cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
+						cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
+						cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
+						cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
+						cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
+						cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
+						cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
+						cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
+						cout << "de tudo, voce tem esperança. \n";
+					}
+				}
+				else {
+					cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
+					cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
+					cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
+					cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
+					cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
+					cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
+					cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
+					cout << "considerando as grandes margens secas ao seu redor. \n";
+					cout << "\n";
+					cout << "Escolha 1: deixar o cachorro entrar na casa \n";
+					cout << "Escolha 2 : barrar a janela para que o cachorro não entre \n";
+					cout << "\n";
+
+					cin >> escolha;
+
+					if (escolha == 1) {
+						cout << "Escolha 1 (deixar o cachorro entrar): Voce chama o cachorro para dentro e, facilmente obedecendo o comando, ele pula a janela e se aloja no tapete em frente a lareira. Assim que ele entra, voce vira \n";
+						cout << "a mesa de madeira contra a porta para que mais nada nem ninguém consiga entrar. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de lenha cortada. Infelizmente, nao \n";
+						cout << "havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer.Assim que acende a lareira, voce acha um lugar confortavel o suficiente para deitar \n";
+						cout << "e dormir. Na manhã seguinte, voce acorda com os latidos do cachorro.Ele esta agressivamente latindo na direção da porta, em posição de ataque. Os grunhidos vindos do lado de fora são do tipo que você \n";
+						cout << "reconhece. Infectados, com certeza. Pelo menos três.Voce levanta com rapidez e pega o machado que havia encontrado. Olhando ao redor, só te restam duas opções: \n";
+						cout << "\n";
+						cout << "Escolha 1 : fugir por uma janela de tras da casa \n";
+						cout << "\n";
+
+						cin >> escolha;
+
+						if (escolha == 1) {
+							cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Logo a terra tambem esta contaminada de sangue. Finalmente, voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens \n";
+							cout << "do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um \n";
+							cout << "grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. O cachorro vai ate a parede e começa a latir se parar. Voce fica desesperado, \n";
+							cout << "torcendo para que nao tenha nenhum infectados vivo por perto que seja atraido pelo som dos latidos. No momento em que voce pretende ir ate o cachorro para acalma-lo, voce ve tres silhuetas de pessoas no \n";
+							cout << "topo da parede da usina. Quando voce da um passo para tras para se esconder entre as arvores, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado \n";
+							cout << "como os infectados em uma das arvores. O sangue começa a correr para o seu cerebro e logo voce apaga. A última coisa que voce escuta sao os latidos do cachorro. Seu fim nao vai ser como o de um infectado, \n";
+							cout << "porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e \n";
+							cout << "pessoas. Um abrigo. Voce esta sendo levado para um abrigo. O cachorro passa correndo pelo seu lado e esperar na frente do portao, seu rabo balançando de um lado para o outro. Pela primeira vez desde o começo \n";
+							cout << "de tudo, voce tem esperança. \n";
+						}
+					}
+					else if (escolha == 2) {
+						cout << "Escolha 2 (não deixar o cachorro entrar): Voce ja teve diferentes companhias durante o último ano, desde que o virus se espalhou, e sabe que não conseguiria lidar com outra perda. Entao, voce e o cachorro \n";
+						cout << "vao ter que seguir caminhos diferentes. Voce vira a mesa de lado e a coloca em frente a janela, barrando a entrada. Enquanto procura suprimentos na casa, voce encontra um machado e uma pequena pilha de \n";
+						cout << "lenha cortada. Infelizmente, nao havia nenhuma comida na casa. Seu estômago ronca mas voce sabe que vai ter que aguentar ate a manha para poder comer. Alem disso, voce acha um mapa da regiao, o qual voce \n";
+						cout << "guarda para olhar depois. Voce acende a lareira e se deita em frente a ela, logo caindo no sono.Na manha seguinte, sua garganta esta seca, implorando por um gole de agua. E isso eh tudo o que voce se \n";
+						cout << "permite beber; alguns poucos goles. Duas das suas garrafas estao vazias, e a última esta pela metade.Urgentemente voce precisa encontrar agua. Ao analisar o mapa, um rio parece estar perto o suficiente \n";
+						cout << "dali. Localizado atras do morro no qual a casa fica em frente.Voce caminha por muito tempo. Ate que enxerga um trecho em frente limpo de arvores. Voce corre para la, sabendo que ali no meio deve passar um \n";
+						cout << "rio. E voce estava certo, entretanto, nao esperava encontrar um rio de aguas vermelhas, manchando a terra e as pedras ao redor.Rio este, também, que deve ter menos que a metade de seu tamanho original, \n";
+						cout << "considerando as grandes margens secas ao seu redor. \n";
+						cout << "\n";
+						cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
+						cout << "\n";
+
+						cin >> escolha;
+
+						if (escolha == 1) {
+							cout << "As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. Tudo fica ainda pior quando nao somente o rio \n";
+							cout << "esta contaminado de sangue, mas tambem a terra onde voce pisa.Finalmente voce descobre de onde vem a contaminação. Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de \n";
+							cout << "infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina \n";
+							cout << "hidroelétrica. Assim que ela cai no caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em decomposiçao. \n";
+							cout << "De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados em uma das arvores. Quando voce olha para seus pes, eles \n";
+							cout << "estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, \n";
+							cout << "voce esta sendo carregado em uma maca por uma rua asfaltada, em direçao a um grande portao de ferro.Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta \n";
+							cout << "sendo levado para um abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
+						}
+					}
+				}
+			}
+
+		}
 	}
 	return 0;
 }
