@@ -941,6 +941,34 @@ int main()
 								}
 							}
 						}
+						else { // floresta em busca de rio
+							cout << "Escolha 2 (procurar um rio): Voce segue em linha reta para dentro da floresta. Sempre em frente com os ouvidos atentos na esperança de ouvir o som de água \n";
+							cout << "corrente, mas também focando para detectar a presença de algum infectado antes que seja tarde demais. Nunca se sabe se aquele radio levaria para uma armadilha. \n";
+							cout << "Enquanto anda, voce abre um alimento enlatado e devora a comida. Voce caminha e caminha e caminha, por muito tempo. Ate que enxerga um trecho em frente onde \n";
+							cout << "nao ha arvores e pode-se ver o ceu. Voce corre para la, sabendo que ali no meio deve passar um rio. E voce estava certo, entretanto, nao esperava encontrar um \n";
+							cout << "rio de aguas vermelhas, manchando a terra e as pedras ao redor. Rio este, também, que deve ter menos que a metade de seu tamanho original, considerando as \n";
+							cout << "grandes margens secas ao seu redor. Voce nao entende como o rio pode ter sido contaminado desse jeito, mas sabe que nao lhe resta opçao: \n";
+							cout << "\n";
+							cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
+							cout << "\n";
+
+							cin >> escolha;
+
+							// FINAL 2:
+							if (escolha == 1) {
+								cout << "Final 2: As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. \n";
+								cout << "Tudo fica ainda pior quando nao somente o rio esta contaminado de sangue, mas tambem a terra onde voce pisa. Finalmente voce descobre de onde vem a contaminação. \n";
+								cout << "Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em \n";
+								cout << "seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no \n";
+								cout << "caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em \n";
+								cout << "decomposiçao. De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados \n";
+								cout << "em uma das arvores. Quando voce olha para seus pes, eles estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e \n";
+								cout << "logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, \n";
+								cout << "em direçao a um grande portao de ferro. Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta sendo levado para um \n";
+								cout << "abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
+								cout << "\n";
+							}
+						}
 					}
 					else if (escolha == 2) { // seguir em frente
 						cout << "Escolha 2 (seguir em frente): Voce deixa os corpos dos infectados onde estão e começa a arrumar suas coisas. Sua camisa ficou ensanguentada, entao voce \n";
@@ -1082,33 +1110,7 @@ int main()
 									}
 								}
 							}
-							else { // floresta em busca de rio
-								cout << "Escolha 2 (procurar um rio): Voce segue em linha reta para dentro da floresta. Sempre em frente com os ouvidos atentos na esperança de ouvir o som de água \n";
-								cout << "corrente, mas também focando para detectar a presença de algum infectado antes que seja tarde demais. Nunca se sabe se aquele radio levaria para uma armadilha. \n";
-								cout << "Enquanto anda, voce abre um alimento enlatado e devora a comida. Voce caminha e caminha e caminha, por muito tempo. Ate que enxerga um trecho em frente onde \n";
-								cout << "nao ha arvores e pode-se ver o ceu. Voce corre para la, sabendo que ali no meio deve passar um rio. E voce estava certo, entretanto, nao esperava encontrar um \n";
-								cout << "rio de aguas vermelhas, manchando a terra e as pedras ao redor. Rio este, também, que deve ter menos que a metade de seu tamanho original, considerando as \n";
-								cout << "grandes margens secas ao seu redor. Voce nao entende como o rio pode ter sido contaminado desse jeito, mas sabe que nao lhe resta opçao: \n";
-								cout << "\n";
-								cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
-								cout << "\n";
 
-								cin >> escolha;
-
-								if (escolha == 1) {
-									cout << "Final 2: As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. \n";
-									cout << "Tudo fica ainda pior quando nao somente o rio esta contaminado de sangue, mas tambem a terra onde voce pisa. Finalmente voce descobre de onde vem a contaminação. \n";
-									cout << "Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em \n";
-									cout << "seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no \n";
-									cout << "caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em \n";
-									cout << "decomposiçao. De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados \n";
-									cout << "em uma das arvores. Quando voce olha para seus pes, eles estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e \n";
-									cout << "logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, \n";
-									cout << "em direçao a um grande portao de ferro. Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta sendo levado para um \n";
-									cout << "abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
-									cout << "\n";
-								}
-							}
 						}
 					}
 				}
@@ -2183,6 +2185,34 @@ int main()
 								}
 							}
 						}
+						else { // floresta em busca de rio
+							cout << "Escolha 2 (procurar um rio): Voce segue em linha reta para dentro da floresta. Sempre em frente com os ouvidos atentos na esperança de ouvir o som de água \n";
+							cout << "corrente, mas também focando para detectar a presença de algum infectado antes que seja tarde demais. Nunca se sabe se aquele radio levaria para uma armadilha. \n";
+							cout << "Enquanto anda, voce abre um alimento enlatado e devora a comida. Voce caminha e caminha e caminha, por muito tempo. Ate que enxerga um trecho em frente onde \n";
+							cout << "nao ha arvores e pode-se ver o ceu. Voce corre para la, sabendo que ali no meio deve passar um rio. E voce estava certo, entretanto, nao esperava encontrar um \n";
+							cout << "rio de aguas vermelhas, manchando a terra e as pedras ao redor. Rio este, também, que deve ter menos que a metade de seu tamanho original, considerando as \n";
+							cout << "grandes margens secas ao seu redor. Voce nao entende como o rio pode ter sido contaminado desse jeito, mas sabe que nao lhe resta opçao: \n";
+							cout << "\n";
+							cout << "Escolha 1: caminhar contra a correnteza do rio ate sua origem \n";
+							cout << "\n";
+
+							cin >> escolha;
+
+							// FINAL 2:
+							if (escolha == 1) {
+								cout << "Final 2: As aguas continuam vermelhas conforme voce acompanha o rio. Quanto mais voce anda, mais perde a esperança de que ira encontrar uma parte limpa do rio. \n";
+								cout << "Tudo fica ainda pior quando nao somente o rio esta contaminado de sangue, mas tambem a terra onde voce pisa. Finalmente voce descobre de onde vem a contaminação. \n";
+								cout << "Pendurados nas arvores ao redor das margens do rio estao corpos. Diversos corpos de infectados, presos nas arvores de cabeça para baixo, com cordas amarradas em \n";
+								cout << "seus pes. Adiante, esta uma enorme parede de concreto por onde agua limpa sai de um grande tubo. Deve ser uma antiga usina hidroelétrica. Assim que ela cai no \n";
+								cout << "caminho do rio, se junta com o sangue derramado. Voce caminha entre as arvores, ficando com uma forte sensaçao de tontura devido ao cheiro dos corpos em \n";
+								cout << "decomposiçao. De repente, voce pisa no lugar errado e seu corpo eh puxado para cima. Agora voce ve o mundo de cabeça para baixo, pendurado como os infectados \n";
+								cout << "em uma das arvores. Quando voce olha para seus pes, eles estao presos por cordas em um galho grosso da arvore. O sangue começa a correr para o seu cerebro e \n";
+								cout << "logo voce apaga. Seu fim nao vai ser como o de um infectado, porém. Quando voce acorda novamente, voce esta sendo carregado em uma maca por uma rua asfaltada, \n";
+								cout << "em direçao a um grande portao de ferro. Entre as frestas voce consegue ver um grande lago cercado de casas e pessoas. Um abrigo. Voce esta sendo levado para um \n";
+								cout << "abrigo. Pela primeira vez desde o começo de tudo, voce tem esperança. \n";
+								cout << "\n";
+							}
+						}
 					}
 					else if (escolha == 2) { // seguir em frente
 						cout << "Escolha 2 (seguir em frente): Voce deixa os corpos dos infectados onde estão e começa a arrumar suas coisas. Sua camisa ficou ensanguentada, entao voce \n";
@@ -2864,5 +2894,3 @@ int main()
 	}
 	return 0;
 }
-
-
