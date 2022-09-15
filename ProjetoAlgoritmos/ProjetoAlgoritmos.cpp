@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
  {
-	float escolha;
+	int escolha;
 
 	// Introdução
 	cout << "Bem vindo ao The Last Night! \n";
@@ -30,6 +30,7 @@ int main()
 	cout << "Escolha 2: Investigar a casa\n";
 
 	cin >> escolha;
+
 	cout << "\n";
 
 	// Escolha 1: Continuar na autoestrada
